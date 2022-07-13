@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <h1 id="title">We Knead Pizza</h1>
+            <div id="cart">
+                  <button onclick="showShop()">Shopping Cart</button>
+            </div>
+            </div>
+            <div id="navigation">
+                <span onclick="showHome()">Home</span>
+                <span onclick="showPizza()">Pizza</span>
+                <span onclick="showAppetizer()">Appetizer</span>
+                <span onclick="showDrinksDesserts()">Drinks &amp Desserts</span>
+            </div>
+        </div>
+    
+    <div id="home" class="page container">
+        <img id="home-left" src="https://www.couponclippingcook.com/wp-content/uploads/2019/01/Valentine-Heart-Pizza.jpg">
+        <div id="home-right">
+            <h2 class="page-header">New Batter. New Flavour.</h2>
+            <p>Wanna hear a joke about pizza? Never mind, it's too cheesy.</p>
+            <p>Order our new "Love at First Bite &#9829" now at a 20% discount.</p>
+            <link rel="stylesheet"                       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <!--Paragraph for spacing-->
+                <p>
+                    </p>
+            </div>
+            <button onclick="showPizza()" class="pick">Pick your Pizza!</button>
+            
+        </div>  
+         <!-- The paragraph is for spacing issues on the website-->
+        <p>
+                    </p>
+        
+        <img id="bear-image" src="/res/210c1ef9-bf71-4f88-963d-62ee96d88645/FOs_rSkXMBQbBzs.jpg">
+        
+        <h2 class="page-header">Limited Edition, Spring Collection 🌹</h2>
+        <p>What do you call a person who can't decide what kind of pizza to order? IndeSLICEsive.</p>
+        <p>Order our new limited edition "ToesZ" for HKD 421.00.</p>
+        <p>This Pizza is handmade all the way from Johnstone, United Kingdom by Gordan Ramsay. Tasty and stylistic, this pizza is the 🌼🌼🌼  best for any occasion. 🌼🌼🌼</p>
+        
+        <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p>
+        </p>
+        </div>
+        <button onclick="orderItems('ToesZ',421.00)" class="pick">Order Now!</button>
+        
+        <h2 class="page-header">Our Locations</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.546178907026!2d114.20770715010752!3d22.21934665137263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3406aa6c1d85e315%3A0x88b2c2603593a792!2sStanley%20Plaza!5e0!3m2!1sen!2shk!4v1651309096525!5m2!1sen!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!--Paragraph for spacing-->
+                <p>
+                    </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9289563638945!2d114.15549785010859!3d22.280680849166124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040064eebfda95%3A0xb042ba8b536855b0!2sLANDMARK%20-%20LANDMARK%20ATRIUM!5e0!3m2!1sen!2shk!4v1651309110408!5m2!1sen!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <div id="pizza" class="page container">
+        <h2 class="page-header">Pizza</h2>
+        <p class="page-text">These funny pizza puns are a knead-to-know.</p>
+
+        <div class="big-card">
+            <img class="card-image" src="https://ak.picdn.net/shutterstock/videos/1047227140/thumb/8.jpg">
+            <h4 class="card-text">Cheezy Wheezy Hawaiian</h4>
+            <p class="card-text">If pizza could talk, what would it say?
+Probably lots of cheesy things.</p>
+            
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p>
+        </p>
+        </div>
+            <button>HKD 94.00</button>
+            <button onclick="orderItems('Cheezy Wheezy Hawaiian', 96)">Order</button>
+            
+        </div>
+
+        <div class="big-card">
+            <img class="card-image" src="https://czechtheworld.com/wp-content/uploads/2021/09/Pizza-Names-14.jpg">
+            <h4 class="card-text">The Oliver Queen</h4>
+            <p class="card-text">Olive you so much.</p>
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <!--Paragraph for spacing-->
+                <p>
+                    </p>
+            </div>
+             <button>HKD 108.00</button>
+            <button onclick="orderItems('The Oliver Queen',108)">Order</button>
+        </div>
+        
+        
+        <div class="big-card">
+            <img class="card-image" src="https://vignettepizzeria.com/wp-content/uploads/pizza-2978377_1920-1.jpg">
+            <h4 class="card-text">Italian Pizza</h4>
+            <p class="card-text">Did you hear about the Italian chef who died? He pasta way, but his legacy will become a pizza history.</p>
+            
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p>
+        </p>
+        </div>
+             <button>HKD 121.00</button>
+            <button onclick="orderItems('Italian Pizza',121)">Order</button>
+        </div>
+        
+        <div class="big-card">
+            <img class="card-image" src="https://media.istockphoto.com/photos/homemade-veggie-pizza-with-mushrooms-peppers-picture-id842082336">
+            <h4 class="card-text">Mexican Green Wave</h4>
+            <p class="card-text">What do you call it when a tired dad makes pizza? <br> Papa Yawns Pizza.</p>
+            
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>
+        </p>
+        </div>
+             <button>HKD 109.00</button>
+            <button onclick="orderItems('Mexian Green Wave',109)">Order</button>
+        </div>
+        
+        <div class="big-card">
+            <img class="card-image" src="https://www.thespruceeats.com/thmb/EFfZEGfHWzb-qJTCsUlNCitowYs=/2492x1869/smart/filters:no_upscale()/Pepperonipizzahoriz-3d53b00a7cce429eae3bfb629df356ec.jpg">
+            <h4 class="card-text">Pepperoni Pizza</h4>
+            <p class="card-text">Where do pepperonis go on vacation? The Leaning Tower of Pizza.</p>
+            
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p>
+        </p>
+        </div>
+             <button>HKD 83.00</button>
+            <button onclick="orderItems('Pepperoni Pizza',83)">Order</button>
+        </div>
+        
+        <div class="big-card">
+            <img class="card-image" src="https://www.couponclippingcook.com/wp-content/uploads/2019/01/Valentine-Heart-Pizza.jpg">
+            <h4 class="card-text">Love at First Bite &#9829 </h4>
+            <p class="card-text">I love you to pizzas. <br> ❤️😘😍😊💌</p>
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <!--Paragraph for spacing-->
+                <p>
+                    </p>
+            </div>
+             <button>HKD 1̶4̶6̶.̶2̶5̶ 117.00</button>
+            <button onclick="orderItems('Love at First Bite &#9829',117)">Order</button>
+        </div>
+        
+    </div>
+
+    <div id="drinksdesserts" class="page container">
+        <h2 class="page-header">Drinks &amp Desserts</h2>
+        <p class="page-text">Shakespeare's favorite cake was 'A Midsummer Ice Cream'.</p>
+        
+        <div class="small-card">
+            <img class="card-image" src="/res/210c1ef9-bf71-4f88-963d-62ee96d88645/IMG_5824-1024x683.jpg">
+            <h4 class="card-text">The DoDo</h4>
+            
+            <!--
+            <div class="tooltip">Rating
+  <span class="tooltiptext"><div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              
+            </div></span>
+</div>
+            <p>
+                    </p>
+            <!--Paragraph for spacing-->
+            
+            <button>HKD 57.00</button>
+            <button onclick="orderItems('The DoDo',57)">Order</button>   
+        </div>
+        
+        <div class="small-card">
+            <img class="card-image" src="/res/210c1ef9-bf71-4f88-963d-62ee96d88645/dessert-main-image-molten-cake-0fbd4f2.jpg">
+            <h4 class="card-text">Chocolate Molten Cake</h4>
+            <button>HKD 76.00</button>
+            <button onclick="orderItems('Chocolate Molten Cake',76)">Order</button>
+        </div>
+        
+        <div class="small-card">
+            <img class="card-image" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2021%2F08%2F06%2F20487_OldFashionedLemonade_MFS__23.jpg&q=60">
+            <h4 class="card-text">Lemonade</h4>
+            <button>HKD 24.00 UP</button>
+            <button onclick="orderItems('Lemonade',24)">Order</button>
+        </div>
+
+        <div class="small-card">
+            <img class="card-image" src="https://static.onecms.io/wp-content/uploads/sites/44/2021/06/09/recipe-red-drink.jpg">
+            <h4 class="card-text">Strawberry Lemonade</h4>
+            <button>HKD 38.00 UP</button>
+            <button onclick="orderItems('Strawberry Lemonade',38)">Order</button>
+        </div>
+        
+        <div class="small-card">
+            <img class="card-image" src="https://www.thespruceeats.com/thmb/UJiBzTQP_eEMTnQ_g5APf2LG3xk=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/greyhound-cocktail-recipe-759306-hero-01-680428b9f8d24389a2b547a52f3c279d.jpg">
+            <h4 class="card-text">Grapefruit Refresher</h4>
+            <button>HKD 40.00 UP</button>
+            <button onclick="orderItems('Grapefruit Refresher',40)">Order</button>
+        </div>
+        
+        <div class="small-card">
+            <img class="card-image" src="https://p2d7x8x2.stackpathcdn.com/content/uploads/2015/02/25C23B4800000578-2956719-image-a-3_1424172212704.jpg">
+            <h4 class="card-text">Fruit Juice</h4>
+            <button>HKD 51.00 UP</button>
+            <button onclick="orderItems('Fruit Juice',51)">Order</button>
+        </div>
+    </div>
+    
+    <div id="appetizer" class="page container">
+        <h2 class="page-header">Appetizer</h2>
+        <p class="page-text">What did the pecan say to the walnut?
+We're friends because we're both nuts.</p>
+        
+        <div class="medium-card">
+            <img class="card-image" src="https://www.liveeatlearn.com/wp-content/uploads/2018/04/greek-salad-sushi-13-650x450.jpg">
+            <h4 class="card-text">Cucumber Rolls</h4>
+            <button>HKD 23.00 UP</button>
+            <button onclick="orderItems('Cucumber Rolls',23)">Order</button>
+        </div>
+        
+        <div class="medium-card">
+            <img class="card-image" src="         https://previews.123rf.com/images/funandrejss/funandrejss2006/funandrejss200600021/148639823-cottage-cheese-and-nectarine-wedges-on-melba-toast-appetizers-drizzled-with-runny-honey-and-served-w.jpg">
+            <h4 class="card-text">Cream Cheese Delight</h4>
+            <button>HKD 23.00 UP</button>
+            <button onclick="orderItems('Cream Cheese Delight',23)">Order</button>
+        </div>
+        
+        <div class="medium-card">
+            <img class="card-image" src="https://www.rachelcooks.com/wp-content/uploads/2016/03/spring-herb-cream-cheese-appetizer-cups-600-3-of-4.jpg">
+            <h4 class="card-text">Small Fruit Tarts</h4>
+            <button>HKD 23.00 UP</button>
+            <button onclick="orderItems('Small Fruit Tarts',23)">Order</button>
+        </div>
+        
+        <h2 class="page-header">Signature Dishes</h2>
+        
+        <div class="signature">
+            <img class="card-image" src="https://www.thespruceeats.com/thmb/v7Qm8hZck_6AKEQyeyaZ7oBwgh0=/3000x2001/filters:fill(auto,1)/shrimp-balls-appetizer-695181-hero-01-ae6686a5a1ac4d918b8eefd6b7b2d31d.jpg">
+            <h4 class="card-text">Shrimp Balls</h4>
+            <button>HKD 69.00 UP</button>
+            <button onclick="orderItems('Shrimp Balls',69)">Order</button>
+        </div>
+        
+        <div class="signature">
+            <img class="card-image" src="/res/210c1ef9-bf71-4f88-963d-62ee96d88645/egg-salad-appetizers-613108.jpg">
+            <h4 class="card-text">Mini Egg Salads</h4>
+            <button>HKD 45.00 UP</button>
+            <button onclick="orderItems('Mini Egg Salads',45)">Order</button>
+        </div>
+        
+        <div class="signature">
+            <img class="card-image" src="/res/210c1ef9-bf71-4f88-963d-62ee96d88645/200106-r-xl-turkish-shish-kebabs-with-garlicky-tahini-2000.jpg">
+            <h4 class="card-text">Turkish Kebabs</h4>
+            <button>HKD 56.00 UP</button>     
+            <button onclick="orderItems('Turkish Kebabs',56)">Order</button>
+         </div>
+        
+         <div class="signature">
+            <img class="card-image" src="https://images.squarespace-cdn.com/content/v1/5e01009606c9c61fb4fa9e96/1629159093313-5PSXRO0FGFXXLW5WZIV5/Baked+Dough+Balls.png?format=1000w">
+            <h4 class="card-text">Dough Balls</h4>
+            <button>HKD 18.00 UP</button>
+             <button onclick="orderItems('Dough Balls',18)">Order</button>
+        </div>     
+    </div>
+        
+    <div id="shop" class="page container">
+        <h2 class="page-header">Shopping Cart</h2>
+        <ul id="list">
+           
+        </ul>
+        <div id="finish">
+            <label>Pay using:</label>
+            <input list="pay" name="paymentMethod" id="paymentMethod">
+            <datalist id="pay">
+                    <option value="Apple Pay"></option>
+                    <option value="PayPal"></option>
+                    <option value="Visa"></option>
+                    <option value="Mastercard"></option>
+                    <option value="Alipay"></option>
+          </datalist>
+        <button id="checkout" onclick="pay(15,60)">Checkout Order</button>
+        <h2 id="price">Total Price = $0.00</h2>
+            
+        </div>
+              
+    </div>
+
+    <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+    
+    <div id="footer">
+        <p>	
+We Knead Pizza. Copyright &copy; 2022. All Rights Reserved.</p>
+    </div>
+  
+  	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
